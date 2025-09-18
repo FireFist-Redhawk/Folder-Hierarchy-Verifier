@@ -16,10 +16,12 @@
 			<Item Name="Folder Verifier State Data.ctl" Type="VI" URL="../CTLs/Folder Verifier State Data.ctl"/>
 		</Item>
 		<Item Name="SubVIs" Type="Folder">
-			<Item Name="FaKI State Machine.lvlib" Type="Library" URL="../SubVIs/FaKI State Machine Folder/FaKI State Machine.lvlib"/>
+			<Item Name="FaKI State Machine.lvlib" Type="Library" URL="../SubVIs/FaKI State Machine/FaKI State Machine.lvlib"/>
 			<Item Name="Get Project Hierarchy.vi" Type="VI" URL="../SubVIs/Get Project Hierarchy.vi"/>
 			<Item Name="Get Project Paths.vi" Type="VI" URL="../SubVIs/Get Project Paths.vi"/>
 			<Item Name="Build Tree.vi" Type="VI" URL="../SubVIs/Build Tree.vi"/>
+			<Item Name="Add Library and Class Hierarchy Levels.vi" Type="VI" URL="../SubVIs/Add Library and Class Hierarchy Levels.vi"/>
+			<Item Name="Find Common Path.vi" Type="VI" URL="../SubVIs/Find Common Path.vi"/>
 		</Item>
 		<Item Name="Folder Hierarchy Verifier.vi" Type="VI" URL="../Folder Hierarchy Verifier.vi"/>
 		<Item Name="Dependencies" Type="Dependencies">
