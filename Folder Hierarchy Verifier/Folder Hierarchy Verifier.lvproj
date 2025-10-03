@@ -13,15 +13,21 @@
 		<Property Name="server.vi.propertiesEnabled" Type="Bool">true</Property>
 		<Property Name="specify.custom.address" Type="Bool">false</Property>
 		<Item Name="CTLs" Type="Folder">
+			<Property Name="NI.SortType" Type="Int">0</Property>
 			<Item Name="Folder Verifier State Data.ctl" Type="VI" URL="../CTLs/Folder Verifier State Data.ctl"/>
+			<Item Name="Tree Map Value.ctl" Type="VI" URL="../CTLs/Tree Map Value.ctl"/>
 		</Item>
 		<Item Name="SubVIs" Type="Folder">
+			<Property Name="NI.SortType" Type="Int">0</Property>
+			<Item Name="Add Library and Class Hierarchy Levels.vi" Type="VI" URL="../SubVIs/Add Library and Class Hierarchy Levels.vi"/>
+			<Item Name="Add Tree Items.vi" Type="VI" URL="../SubVIs/Add Tree Items.vi"/>
+			<Item Name="Build Tree.vi" Type="VI" URL="../SubVIs/Build Tree.vi"/>
+			<Item Name="Color Tree Items.vi" Type="VI" URL="../SubVIs/Color Tree Items.vi"/>
+			<Item Name="Enumerate Expected Paths.vi" Type="VI" URL="../SubVIs/Enumerate Expected Paths.vi"/>
 			<Item Name="FaKI State Machine.lvlib" Type="Library" URL="../SubVIs/FaKI State Machine/FaKI State Machine.lvlib"/>
+			<Item Name="Find Common Path.vi" Type="VI" URL="../SubVIs/Find Common Path.vi"/>
 			<Item Name="Get Project Hierarchy.vi" Type="VI" URL="../SubVIs/Get Project Hierarchy.vi"/>
 			<Item Name="Get Project Paths.vi" Type="VI" URL="../SubVIs/Get Project Paths.vi"/>
-			<Item Name="Build Tree.vi" Type="VI" URL="../SubVIs/Build Tree.vi"/>
-			<Item Name="Add Library and Class Hierarchy Levels.vi" Type="VI" URL="../SubVIs/Add Library and Class Hierarchy Levels.vi"/>
-			<Item Name="Find Common Path.vi" Type="VI" URL="../SubVIs/Find Common Path.vi"/>
 		</Item>
 		<Item Name="Folder Hierarchy Verifier.vi" Type="VI" URL="../Folder Hierarchy Verifier.vi"/>
 		<Item Name="Dependencies" Type="Dependencies">
