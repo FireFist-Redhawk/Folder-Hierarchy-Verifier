@@ -15,6 +15,7 @@
 		<Item Name="CTLs" Type="Folder">
 			<Property Name="NI.SortType" Type="Int">0</Property>
 			<Item Name="Folder Verifier State Data.ctl" Type="VI" URL="../CTLs/Folder Verifier State Data.ctl"/>
+			<Item Name="Item Info.ctl" Type="VI" URL="../CTLs/Item Info.ctl"/>
 			<Item Name="Tree Map Value.ctl" Type="VI" URL="../CTLs/Tree Map Value.ctl"/>
 		</Item>
 		<Item Name="SubVIs" Type="Folder">
@@ -28,6 +29,10 @@
 			<Item Name="Find Common Path.vi" Type="VI" URL="../SubVIs/Find Common Path.vi"/>
 			<Item Name="Get Project Hierarchy.vi" Type="VI" URL="../SubVIs/Get Project Hierarchy.vi"/>
 			<Item Name="Get Project Paths.vi" Type="VI" URL="../SubVIs/Get Project Paths.vi"/>
+			<Item Name="Is Class Data Control.vi" Type="VI" URL="../SubVIs/Is Class Data Control.vi"/>
+		</Item>
+		<Item Name="Tests" Type="Folder">
+			<Item Name="Tester.vi" Type="VI" URL="../../tests/Tester.vi"/>
 		</Item>
 		<Item Name="Folder Hierarchy Verifier.vi" Type="VI" URL="../Folder Hierarchy Verifier.vi"/>
 		<Item Name="Dependencies" Type="Dependencies">
